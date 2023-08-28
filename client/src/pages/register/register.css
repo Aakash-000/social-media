@@ -1,0 +1,87 @@
+.register{
+    height: 100vh;
+    background-color: rgb(193,190,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    min-height: 60%;
+    overflow: hidden;
+}
+.card_right{
+    flex: 1;
+    background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)),
+    url("https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600")
+    center;
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    color: white;
+}
+.card_right .card_right_h1{
+    font-size: 70px;
+    line-height: 70px;
+}
+.card_right .card_span_right{
+    font-size: 14px;
+}
+.card_right .card_right_button{
+    width: 50%;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    color:rebeccapurple;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card_left_register{
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+.card_left_register .card_left_register_h1{
+    color:#555;
+    font-weight: bold;
+    font-size: 25px;
+}
+.card_left_register .card_left_register_form{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.card_left_register_form input{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 20px 10px;
+}
+.card_left_register_form .card_left_register_form_button{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background-color: #938eef;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card_left_register_form .card_left_register_form_button:active{
+    background-color: #938eef;   
+    transform: translateY(2px);
+}
+.card_left_register_form_check{
+    display: flex;
+    align-items:center;
+    gap:10px;
+}
+.card_left_register_form_check .card_left_register_form_p{
+    font-size: 12px;
+}

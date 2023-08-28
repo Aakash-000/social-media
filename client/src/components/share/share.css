@@ -1,0 +1,65 @@
+.share .container{
+    box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+    border-radius: 20px;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.top .left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:2em;
+}
+
+.top .left img{
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.top .right img{
+    background-size: cover;
+    overflow: hidden;
+}
+.top .left input{
+    width: 100%;
+    background-color: transparent;
+    padding: 10px 7px;
+}
+.top .left input:focus{
+    outline: 1px solid #f1f1f1;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom .left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:1rem;
+}
+.bottom .left img{
+    width: 20px;
+    height: 20px;
+}
+.bottom .left .item{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap:0.2rem
+}
+.bottom .right button{
+    border: none;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    background-color: #5271ff;
+}

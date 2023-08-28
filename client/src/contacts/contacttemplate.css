@@ -1,0 +1,198 @@
+.template{
+    display: flex;
+    flex-direction: column;
+}
+.contact_header_sub{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 16px 10px 16px;
+}
+.template_searchbar_input{
+    padding: 6px 12px;
+    border: 1px solid #73777F;
+    border-radius: 4px;
+    width: 220px;
+    line-height: 20px;
+}
+.contact_header_right{
+    display: flex;
+    align-items: center;
+    gap:4px;
+}
+.contact_header_right_export_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:4px;
+    box-sizing: border-box;
+    border: 1px solid #0D84D9;
+    padding: 6px 16px;
+    color:#0D84D9;
+    border-radius: 4px;
+    height: 32px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.contact_header_right_import_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:4px;
+    box-sizing: border-box;
+    border: 1px solid #0D84D9;
+    padding: 6px 16px;
+    color:#0D84D9;
+    border-radius: 4px;
+    height: 32px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.contact_header_right_newcontact_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:4px;
+    box-sizing: border-box;
+    border: 1px solid #0D84D9;
+    padding: 6px 16px;
+    color:white;
+    background-color: #0D84D9;
+    border-radius: 4px;
+    height: 32px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.contact_header_right_dotted_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:4px;
+    box-sizing: border-box;
+    border: 1px solid #0D84D9;
+    padding: 6px 16px;
+    color:#0D84D9;
+    border-radius: 4px;
+    height: 32px;
+    font-size: 14px;
+    line-height: 20px;
+    width: 38px;
+    height: 32px;
+}
+table{
+    border: 1px solid #E2E2E6; 
+    width:100%; 
+    font-size: 14px; 
+}
+.template_table_header .template_table_header_check{
+    color: #0D84D9;
+}
+.template_main{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    padding: 10px 15px 10px 10px;
+    border: 1px solid lightgray;
+    position: relative;
+}
+.template_new{
+    margin-left:15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.template_table_thead{
+    text-align: left;
+}
+.template_table_tbody{
+    width: fit-content;
+    text-align: left;
+    padding: 6px 10px;
+}
+.template_table_body_action{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+}
+.template_table_body_check{
+    padding-left: 7px;
+    color: #0D84D9;
+}
+.template_table_header:nth-child(odd) {
+    background-color: #dddddd;
+}
+.template_table_body:nth-child(even) {
+    background-color: #dddddd;
+}
+.template_pagination{
+    position: sticky;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+.template_pagination_list{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.template_pagination_list_item_one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 8px 0px 3px;
+    width: 64px;
+    height: 32px;
+    background-color: #E2E2E6;
+    border-radius: 4px;
+}
+.template_pagination_list_item_two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    width: 32px;
+    height: 32px;
+    background-color: #E2E2E6;
+    border-radius: 4px;
+}
+.template_pagination_list_item_three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    width: 32px;
+    height: 32px;
+    background-color: #E2E2E6;
+    border-radius: 4px;
+}
+.template_pagination_list_item_four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    width: 32px;
+    height: 32px;
+    background-color: #E2E2E6;
+    border-radius: 4px;
+}
+.template_pagination_list_item_five{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 4px 0px 8px;
+    gap: 2px;
+    width: 66px;
+    height: 32px;
+    background-color: #E2E2E6;
+    border-radius: 4px;
+}
+.template_pagination_filter_select{
+    border: 1px solid #73777F;
+    padding: 0px 3px;
+    gap: 8px;
+    width: 125px;
+    height: 30px;
+}

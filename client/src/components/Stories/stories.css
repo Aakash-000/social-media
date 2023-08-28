@@ -1,0 +1,108 @@
+.stories{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    height: 250px;
+}
+.story{
+    flex: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.stories_story_image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.stories_story_span{
+    position:absolute;
+    left:10px;
+    bottom:10px;
+    color:white;
+    font-weight: 500;
+}
+.stories_user_image{
+    height: 100%;
+    object-fit: cover;
+}
+.stories_user_span{
+    position:absolute;
+    left:10px;
+    bottom:10px;
+    color:white;
+    font-weight: 500;
+}
+.stories_user_button{
+    position:absolute;
+    left:50px;
+    bottom:40px;
+    color:white;
+    background-color: #5271ff;
+    font-weight: 600;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width : 600px){
+
+    .stories{
+        height: 100px;
+        padding:10px;
+    }
+    .story{
+        flex: 1;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+    }
+    .stories_story_image{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .stories_story_span{
+        position: absolute;
+        left: 0px;
+        top:37px;
+        font-size: 14px;
+        color: black;
+        font-weight: 500;
+    }
+    .stories_user_image{
+        height: 40px;
+        width: 40px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .stories_user_span{
+        position:absolute;
+        left:0px;
+        top:37px;
+        color:white;
+        font-size: 14px;
+        font-weight: 500;
+        color: black;
+    }
+    .stories_user_button{
+        position:absolute;
+        left:10px;
+        bottom:50px;
+        color:white;
+        background-color: #5271ff;
+        font-weight: 600;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

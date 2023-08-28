@@ -1,0 +1,15 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+
+@media screen and (max-width : 600px){
+    .home{
+        
+        padding: 10px;
+        gap:10px;
+    }
+}
