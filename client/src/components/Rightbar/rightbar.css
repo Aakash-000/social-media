@@ -266,6 +266,15 @@
     border: none;
     padding: 5px;
     color: white;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    width: fit-content;
+    padding: 7px 15px;
+    cursor: pointer;
 }
 .user .buttons button:first-child {
     background-color: #5271ff;

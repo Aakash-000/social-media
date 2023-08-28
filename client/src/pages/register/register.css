@@ -63,14 +63,28 @@
     border: none;
     border-bottom: 1px solid lightgray;
     padding: 20px 10px;
+    color:black;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.card_left_register_form input:focus{
+    outline: none;
 }
 .card_left_register_form .card_left_register_form_button{
     width: 50%;
-    padding: 10px;
-    border: none;
     background-color: #938eef;
     color:white;
-    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+    border: none;
+    width: fit-content;
+    padding: 8px 20px;
     cursor: pointer;
 }
 .card_left_register_form .card_left_register_form_button:active{
@@ -84,4 +98,15 @@
 }
 .card_left_register_form_check .card_left_register_form_p{
     font-size: 12px;
+}
+.card_right_button{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+    border: none;
+    width: fit-content;
+    padding: 8px 20px;
+    cursor: pointer;
 }

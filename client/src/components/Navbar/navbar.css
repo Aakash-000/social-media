@@ -32,10 +32,23 @@
 .navbar_left_searchbar input{
     border: none;
     width: 500px;
+    outline: none;
+    color:black;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
 }
 .navbar_left_searchbar input:active{
     border: none;
     width: 500px;
+    outline: none;
+}
+.navbar_left_searchbar input:focus{
+    outline: none;
+    border: none;
 }
 .navbar_right{
     display: flex;
@@ -96,16 +109,24 @@
 .navbar_right_user_span{
     font-size: 14px;
     cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 1000;
 }
 .navbar_right_user_span_logged_status{
     position: absolute;
-    left: 20px;
-    top:30px;
+    left: 40px;
+    top:40px;
     background-color: #EFEFEF;
-    padding: 5px 10px;
+    padding: 7px 15px;
     border-bottom: 1px solid lightgray;
-    border-radius: 5px;
     cursor: pointer;
+    color:black;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 1000;
 }
 .navbar_right_user_image{
     height: 30px;

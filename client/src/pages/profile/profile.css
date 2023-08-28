@@ -58,10 +58,16 @@
     gap:2rem;
 }
 .center_button{
-    border: none;
     background-color: #5271ff;
     color: white;
-    padding: 7px 20px;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
     width: fit-content;
+    padding: 8px 15px;
     cursor: pointer;
 }

@@ -48,6 +48,11 @@
 .userinfo_firstpart_details_span_name{
     font-weight: 500;
     margin-right: 10px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    font-weight: 1000;
 }
 .userinfo_firstpart_details_span_activity{
     color:gray;

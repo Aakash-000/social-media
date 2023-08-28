@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@200;300;400&family=Nunito:wght@200&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     scroll-behavior: smooth;
+    
 }
 /* .app_layout{
     display: flex;
@@ -9,3 +12,10 @@
 .app_outlet{
     flex: 6;
 } */
+
+.App{
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-weight: 600;
+}

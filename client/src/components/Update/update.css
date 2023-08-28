@@ -3,15 +3,18 @@
     flex-direction: column;
     gap:1rem;
     position: absolute;
-    top:650px;
+    top:450px;
     left:0;
     bottom:0;
     left: 0;
     width: 700px;
     height: 300px;
-    background-color: rgb(250, 250, 250);
-    padding: 50px;
+    background-color: #BB8588;
+    padding: 30px 50px 30px 50px;
     z-index: 999;
+    -webkit-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+    box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
 }
 
 .update .top{
@@ -32,4 +35,35 @@
     flex-direction: row;
     align-items: center;
     gap:1rem;
+}
+.middleform .itemone input[type="text"], .middleform .itemtwo input[type="text"],
+.middleform .itemthree input[type="text"], .middleform .itemfour input[type="text"],
+.middleform .itemfive input[type="text"]{
+    /* background-color: #CAD2C5; */
+    padding: 10px 12px;
+    border: 1px solid #344E41;
+    color:black;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.middleform .itemone input[type="text"]:focus, .middleform .itemtwo input[type="text"]:focus,
+.middleform .itemthree input[type="text"]:focus, .middleform .itemfour input[type="text"]:focus,
+.middleform .itemfive input[type="text"]:focus{
+    outline: none;
+}
+.update_button{
+    background-color: #5B8E7D;
+    color: aliceblue;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    width: fit-content;
+    padding: 8px 15px;
+    cursor: pointer;
 }

@@ -56,7 +56,7 @@ const Share = () => {
             <img src="https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
             <input
               type="text"
-              placeholder={`What's on your mind ${state.username}?`}
+              placeholder={`What's on your mind ${state.info.username}?`}
               onChange={(e) => setDesc((prevValue) => prevValue = e.target.value)}
               value={desc}
             />
