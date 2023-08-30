@@ -4,9 +4,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .card{
     display: flex;
+    flex-wrap: wrap;
     width: 50%;
     background-color: white;
     border-radius: 10px;
@@ -24,6 +26,15 @@
     flex-direction: column;
     gap:30px;
     color: white;
+}
+@media screen and (max-width:600px) {
+    .card .card_right{
+        display: none;
+    }
+    .card .card_left_register{
+        padding: 20px;
+    }
+    
 }
 .card_right .card_right_h1{
     font-size: 70px;

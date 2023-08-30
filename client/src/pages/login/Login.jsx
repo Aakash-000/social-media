@@ -59,7 +59,7 @@ export function Login() {
       console.log(err)
     }
   }
-    
+    console.log("Rerendered")
   return (
     <div className='login'>
       {console.log(state)}

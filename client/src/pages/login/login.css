@@ -2,12 +2,14 @@
     height: 100vh;
     background-color: rgb(193,190,255);
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 .card{
     display: flex;
-    width: 50%;
+    flex-wrap: wrap;
+    
     background-color: white;
     border-radius: 10px;
     min-height: 60%;
@@ -26,6 +28,7 @@
     gap:30px;
     color: white;
 }
+
 .card_left_login .card_left_login_h1{
     font-size: 70px;
     line-height: 70px;
@@ -109,4 +112,13 @@
     width: fit-content;
     padding: 8px 20px;
     cursor: pointer;
+}
+
+@media screen and (max-width:600px) {
+    .card .card_left_login{
+        display: none; 
+    }
+    .card_right_login{
+        padding: 20px;
+    }
 }
